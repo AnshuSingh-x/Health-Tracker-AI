@@ -27,7 +27,7 @@ def input_image_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 st.set_page_config(page_title="Health Tracker AI")
-st.header("Health Tracker AI")
+st.header("AI Nutrition Calculator")
 uploaded_file=st.file_uploader("Click the photo of your food and upload it here..",
                                 type=["jpg","jpeg","png"])
 image=""
